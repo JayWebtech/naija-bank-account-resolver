@@ -1,0 +1,46 @@
+{
+  "name": "naija-nuban-resolver",
+  "version": "1.0.0",
+  "description": "A comprehensive Nigerian bank account resolution and NUBAN validation library supporting 3-digit and 5/6-digit bank codes.",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build:cjs": "tsc -p tsconfig.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "build": "npm run clean && npm run build:cjs && npm run build:esm",
+    "test": "jest",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "nuban",
+    "nigeria",
+    "bank",
+    "account-resolution",
+    "validation",
+    "nigerian-banks",
+    "microfinance-banks",
+    "cbn"
+  ],
+  "author": "Antigravity",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "jest": "^29.7.0",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
