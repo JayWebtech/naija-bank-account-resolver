@@ -171,6 +171,16 @@ npm run build
 
 ---
 
+## Support & Contribution
+
+If you find this library useful, please consider:
+- Giving the repository a ⭐ [on GitHub](https://github.com/JayWebtech/naija-bank-account-resolver)!
+- Following [JayWebtech](https://github.com/JayWebtech) on GitHub for more updates and tools.
+
+Developed with ❤️ by [JayWebtech](https://github.com/JayWebtech).
+
+---
+
 ## License
 
 MIT License.
