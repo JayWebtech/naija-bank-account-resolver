@@ -1,6 +1,6 @@
 # naija-bank-account-resolver
 
-A comprehensive, zero-dependency Nigerian bank account resolution and NUBAN (Nigeria Uniform Bank Account Number) validation library in TypeScript. Supports both traditional Deposit Money Banks (3-digit codes) and Other Financial Institutions / Microfinance Banks (5/6-digit codes).
+A lightweight, zero-dependency Nigerian bank account resolver and NUBAN validator in TypeScript. Instantly auto-detects candidate banks from a 10-digit account number across 390+ traditional Deposit Money Banks (3-digit codes) and Other Financial Institutions / Microfinance Banks (5/6-digit codes).
 
 🚀 **Live Playground / Interactive Example**: [https://naija-bank-account-resolver.vercel.app/](https://naija-bank-account-resolver.vercel.app/)
 📦 **npm Package**: [https://www.npmjs.com/package/naija-bank-account-resolver](https://www.npmjs.com/package/naija-bank-account-resolver)

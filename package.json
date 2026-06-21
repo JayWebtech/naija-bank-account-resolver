@@ -1,7 +1,7 @@
 {
   "name": "naija-bank-account-resolver",
-  "version": "1.0.2",
-  "description": "A comprehensive Nigerian bank account resolution and NUBAN validation library supporting 3-digit and 5/6-digit bank codes.",
+  "version": "1.0.3",
+  "description": "A lightweight, zero-dependency Nigerian bank account resolver and NUBAN validator. Instantly auto-detects candidate banks from a 10-digit account number across 390+ traditional and microfinance institutions.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
