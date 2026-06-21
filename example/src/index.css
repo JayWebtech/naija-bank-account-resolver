@@ -276,20 +276,7 @@ h6 {
   margin-top: 56px;
   padding-top: 32px;
   border-top: 2px solid var(--border-color-dark);
-  display: flex;
-  flex-direction: column;
   gap: 24px;
-  align-items: center;
-  text-align: center;
-}
-
-@media (min-width: 640px) {
-  .app-footer {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-    align-items: center;
-  }
 }
 
 .footer-credits {
@@ -312,10 +299,10 @@ h6 {
 }
 
 .footer-cta {
+  margin-top: 20px;
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .footer-btn {
